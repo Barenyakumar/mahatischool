@@ -686,7 +686,7 @@ width: 139px;
   width: 100%; 
   flex-wrap: wrap; 
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .vision__text{
