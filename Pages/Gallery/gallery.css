@@ -1,0 +1,117 @@
+/* ============================== about school =============================== */
+
+.aboutSchool {
+    background: url("./images/masterBg22.jpg") center no-repeat;
+    background-size: cover;
+    /* position: relative; */
+  }
+  
+  .aboutSchool::before {
+    /* content: ""; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.7);  */
+    /* Change the last value (0.5) to adjust the opacity of the overlay */
+    z-index: 1;
+  }
+  
+  .sectionPadding {
+    padding: 100px 0;
+  }
+  
+  .aboutSchool__container {
+    width: 100%;
+    /* padding-right: auto;
+      padding-left: auto;
+      margin-right: auto;
+      margin-left: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2; /* Add this line */
+  }
+  /* .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    } */
+  
+  .col-lg-12 {
+    /* position: relative; */
+    width: 60%;
+    min-height: 1px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 15px;
+        padding-left: 15px; */
+  }
+  
+  .w-sectionHeading {
+    font: 700 57px/57px "Roboto";
+    text-align: center;
+    height: 57px;
+  }
+  
+  .w-sectionHeading span::before {
+    content: "";
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    background: inherit;
+    text-align: center;
+    bottom: -12px;
+    left: 25%;
+    background: #fff;
+  }
+  
+  .w-sectionHeading span {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .mb-5,
+  .my-5 {
+    margin-bottom: 3rem !important;
+  }
+  
+  .whiteColor {
+    color: #fff;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  
+  @media (min-width: 1200px) {
+    .aboutSchool .container {
+      max-width: 1140px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .aboutSchool .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .aboutSchool .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .aboutSchool .container {
+      max-width: 540px;
+    }
+  }
+  

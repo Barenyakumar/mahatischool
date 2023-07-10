@@ -1,0 +1,138 @@
+
+/* ===================== History =================== */
+.history_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-us-img-container{
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 80%; */
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+}
+
+.banner {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.banner p {
+  color: white;
+  margin: 0;
+  padding: 10px 0;
+}
+
+
+
+
+.image {
+  
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 799px) {
+.history__container{
+  display: flex; 
+  width: 100%; 
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.history__text{
+  padding: 2rem;
+  width: 50%;
+  font: 600;
+}
+
+.history__text p{
+  font: 500;
+  font-size: large;
+}
+
+.history__image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+}
+
+
+/* Media Queries */
+
+/* styles for Extra small devices (phones)  */
+@media screen and (max-width: 576px) {
+  .history__container{
+    display: flex; 
+    width: 100%; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .history__text{
+    padding: 2rem;
+  }
+
+ p{
+  font-size: 14px;
+}
+
+  .history__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+  }
+}
+
+/* styles for Small devices (tablets)  */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .history__text{
+    padding: 2rem;
+  }
+
+  .history__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+}
+
+/* styles for Medium devices (desktops, laptops) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .history__text{
+    padding: 2rem;
+  }
+
+  .history__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;  
+  }
+}
+
