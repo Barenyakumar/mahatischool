@@ -51,6 +51,14 @@ body {
   z-index: 1;
 }
 
+
+@media (max-width: 500px) {
+  .content {
+   width: 20rem;
+  }
+}
+
+
 .gap {
   margin-top: 100vh;
 }
@@ -455,7 +463,7 @@ nav .navbar .links li:hover .contact-sub-menu  {
 }
 
 .sectionPadding {
-  padding: 100px 0;
+  padding: 100px 0px;
 }
 
 .aboutSchool__container {
@@ -559,6 +567,14 @@ nav .navbar .links li:hover .contact-sub-menu  {
   }
 }
 
+@media (max-width: 576px) {
+  .w-sectionHeading {
+    font-size: 1.4rem;
+    text-align: center;
+    height: 57px;
+  }
+}
+
 @media (min-width: 992px) {
   .col-lg-12 {
     /* -ms-flex: 0 0 100%;
@@ -567,6 +583,12 @@ nav .navbar .links li:hover .contact-sub-menu  {
     width: 60%;
   }
 }
+@media (max-width: 576px) {
+  .col-lg-12 {
+    width: 80%;
+  }
+}
+
 
 @media (min-width: 992px) {
   .pl-lg-5,
@@ -841,7 +863,7 @@ body {
 }
 .mb-3,
 .my-3 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 1rem !important; 
 }
 
 .serviceBg__sectionPadding img {
@@ -939,18 +961,18 @@ body {
 /* styles for Extra small devices (phones)  */
 @media screen and (max-width: 576px) {
   .skill {
-    padding: 1rem;
+    /* padding: 0.5rem; */
   }
   .skill-bx {
-    padding: 4rem 1rem;
+    /* padding: 2rem 0.5rem; */
   }
   .skill h2 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   .skill p {
-    padding: 0rem 1rem;
-    margin-top: 2rem;
-    font-size: 1rem;
+    /* padding: 0rem 1rem; */
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
   }
 }
 
