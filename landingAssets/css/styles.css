@@ -1602,7 +1602,7 @@ video {
 
 @media screen and (min-width: 1024px) {
   .sushi__popular__container {
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(2, 350px);
     column-gap: 5rem;
     /* padding-block: 6rem 4rem; */
   }
@@ -2311,6 +2311,10 @@ button {
 /* --------------------------coffee----------------------------- */
 
 /*=============== SPECIALTY ===============*/
+.specialty{
+  /* border: 11px solid black; */
+  overflow: hidden;
+}
 .specialty__button {
   margin-left: 1.25rem;
 }

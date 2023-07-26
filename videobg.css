@@ -732,6 +732,8 @@ nav .navbar .links li:hover .contact-sub-menu  {
   background-size: cover;
 }
 .serviceBg__sectionPadding {
+  /* border: 10px solid black; */
+  overflow: hidden;
   padding: 100px 0;
 }
 * {
