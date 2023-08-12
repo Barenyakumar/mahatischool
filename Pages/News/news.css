@@ -1,0 +1,210 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+.footerpager {
+  width: 100%;
+  float: left;
+  min-height: 150px;
+}
+
+.achiv3 {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}#dvCustomers li {
+  text-align: center;
+}
+li.eh1 {
+  float: left;
+}
+.achivMent {
+  text-align: center;
+  position: relative;
+  max-width: 259px;
+  padding: 0px 0 0 0;
+  margin: 18px 7px 0px 7px;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  border: 1px solid #858585;
+  background: #ffffff;
+}
+.photo_gn1 li, .pgThumbView1 li, .rpt-subhead, .achivMent {
+  -webkit-box-shadow: 0px 0px 10px #a09f9f;
+  -moz-box-shadow: 0px 0px 10px #a09f9f;
+  box-shadow: 0px 0px 10px #a09f9f;
+}.achi-main, .achi-img, .AlbumIconPhoto_achi, .headboy, .achibg, .achieve_slider, #inner_pg3 {
+  width: 100%;
+  float: left;
+}.achi-main, .achi-img, .AlbumIconPhoto_achi, .headboy, .achibg, .achieve_slider, #inner_pg3 {
+  width: 100%;
+  float: left;
+}.achi-img {
+  height: 129px;
+  overflow: hidden;
+  text-align: center;
+  margin: 27px 0 0 0;
+}
+.achi-main, .achi-img, .AlbumIconPhoto_achi, .headboy, .achibg, .achieve_slider, #inner_pg3 {
+  width: 100%;
+  float: left;
+}.AlbumIconPhoto {
+  float: none;
+  max-width: 100%;
+  height: 166px;
+}
+* {
+  outline: none;
+  color: #333333;
+}.achi-img img {
+  max-width: 189px;
+  max-height: 126px;
+}
+.AlbumIconPhoto {
+  float: none;
+  max-width: 100%;
+  height: 166px;
+}
+img {
+  border: none;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}.achibg {
+  border-top: 0;
+  padding: 10px 10px;
+  position: relative;
+  min-height: 174px;
+  font-size: 15px;
+  width: 100%;
+  float: left;
+  text-align: left;
+}
+.achi-main, .achi-img, .AlbumIconPhoto_achi, .headboy, .achibg, .achieve_slider, #inner_pg3 {
+  width: 100%;
+  float: left;
+}.achi-dtl {
+  font-size: 15px;
+  margin: 3px 0 4px 0;
+  border-bottom: 1px solid #858585;
+  padding: 7px 0 12px 0;
+  text-transform: uppercase;
+  color: #363636;
+  font-weight: 600;
+}.Event {
+  color: #2a4678;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+}.achi-dt2 b, .achi-bg2 b {
+  font-weight: 600;
+  color: #2a4678;
+  font-size: 15px;
+  min-height: 174px;
+}
+b, strong {
+  font-weight: bolder;
+}.achi-dt2 > span[id^="ctl00"] {
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+}
+.EventVenue, .Description {
+  color: #363636;
+  font-size: 15px;
+  font-weight: 400;
+}.achi-dt2.aCHdate {
+  margin: 0px 0 0px 0;
+  text-align: left;
+  font-weight: 400;
+}.achi-dt2 > span[id^="ctl00"] {
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+}.EventDate1 {
+  font-size: 15px;
+  float: none;
+  width: auto;
+  color: #363636;
+}
+.EventDate, .lblUpdatedOn, .Gtotalphotos {
+  text-align: left;
+  font-size: 15px;
+  text-transform: capitalize;
+}.mTopAch {
+  line-height: 23px;
+  text-align: left;
+}.EventVenue, .Description {
+  color: #363636;
+  font-size: 15px;
+  font-weight: 400;
+}.tCenter {
+  margin: 18px 0 19px 0;
+  width: 100%;
+  float: left;
+}.viewAll {
+  font: 400 16px/15px 'Roboto';
+  display: inline-block;
+  border: 1px solid #464646;
+  background: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+}
+.readMore {
+  font: 400 16px/15px 'Roboto';
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.readMore, .readMore1 {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+}
+.pl-2, .px-2 {
+  padding-left: .5rem !important;
+}
+.pr-2, .px-2 {
+  padding-right: .5rem !important;
+}
+.pb-1, .py-1 {
+  padding-bottom: .25rem !important;
+}
+.pt-1, .py-1 {
+  padding-top: .25rem !important;
+}
+a {
+  cursor: pointer;
+}
+a, a:hover {
+  text-decoration: none;
+}
+a {
+  color: #363636;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}

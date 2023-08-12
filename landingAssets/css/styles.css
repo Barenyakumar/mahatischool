@@ -1531,7 +1531,7 @@ video {
 .sushi__popular__card {
   position: relative;
   /* background-color: var(--container-color); */
-  padding: 7rem 2rem 1.5rem;
+  padding: 4rem 2rem 1.5rem;
   box-shadow: 0 8px 20px hsla(19, 64%, 48%, .08);
   border-radius: 1rem;
   text-align: center;
@@ -1543,7 +1543,7 @@ video {
 }
 
 .sushi__popular__img {
-  width: 180px;
+  width: 100px;
   position: absolute;
   inset: 0;
   top: -3.5rem;
@@ -1607,11 +1607,11 @@ video {
     /* padding-block: 6rem 4rem; */
   }
   .sushi__popular__card {
-    padding: 7.5rem 2rem 2rem;
+    padding: 5rem 2rem 2rem;
     border-radius: 1.5rem;
   }
   .sushi__popular__img {
-    width: 180px;
+    width: 100px;
   }
   .sushi__popular__button {
     bottom: 2rem;
