@@ -8,16 +8,14 @@
     <link
       href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
       rel="stylesheet"
-      id="bootstrap-css"
-    />
+      id="bootstrap-css"/>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
 
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"/>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
@@ -26,8 +24,7 @@
     <!--=============== BOXICONS ===============-->
     <link
       href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <!--=============== Custom Css ===============-->
     <link rel="stylesheet" href="./gallery.css" />
     <link rel="stylesheet" href="../../videobg.css">
@@ -147,38 +144,50 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center my-2">
-          <h4>Gallery with</h4>
-        </div>
-      </div>
+    <div class="container" style="display: flex; flex-direction: column; position: relative; height: 100vh;">
       <div class="portfolio-menu mt-2 mb-4">
-        <ul>
-          <!-- <li class="btn btn-outline-dark active" data-filter="*">All</li> -->
-          <li class="btn btn-outline-dark" data-filter=".atal">Atal Tinkering Lab</li>
-          <li class="btn btn-outline-dark" data-filter=".eoy">End of year</li>
-          <li class="btn btn-outline-dark text" data-filter=".group">
+        <ul class="portfolio-menu-container">
+          <li class="btn btn-outline-dark" data-filter=".atal" style="display: flex; flex-direction: column; width: 50%; margin: 1rem;">
+            <img src="../../images/ATALTinkeringLab/DSC_5105.JPG" alt="" style="width: 100%;">
+            Atal Tinkering Lab
+          </li>
+          <li class="btn btn-outline-dark" data-filter=".eoy" style="display: flex; flex-direction: column; width: 50%; margin: 1rem;">
+            <img src="../../images/EndOfYear/DSC_5146.JPG" alt="" style="width: 100%;">
+            End of year
+          </li>
+          <li class="btn btn-outline-dark text" data-filter=".group" style="display: flex; flex-direction: column; width: 50%; margin: 1rem;">
+            <img src="../../images/Group/DSC_4972.JPG" alt="" style="width: 100%;">
             Group
           </li>
-          <li class="btn btn-outline-dark text" data-filter=".ps">
+          <li class="btn btn-outline-dark text" data-filter=".ps" style="display: flex; flex-direction: column; width: 50%; margin: 1rem;">
+            <img src="../../images/Speaking/DSC_5002.JPG" alt="" style="width: 100%;">
             Public Speaking
+          </li>
+          <li class="btn btn-outline-dark text" data-filter=".asmb" style="display: flex; flex-direction: column; width: 50%; margin: 1rem;">
+            <img src="../../images/Group/DSC_4972.JPG" alt="" style="width: 100%;">
+            Assembly
+          </li>
+          <li class="btn btn-outline-dark text" data-filter=".yg" style="display: flex; flex-direction: column; width: 50%; margin: 1rem;">
+            <img src="../../images/Group/DSC_4972.JPG" alt="" style="width: 100%;">
+            Yoga
           </li>
         </ul>
       </div>
-      <div class="portfolio-item row">
+      <div class="portfolio-item row" >
       </div>
     </div>
 
-
-
-    <footer
+    <!-- <div class="" style="position: relative ; border: 2px black solid; height: 10rem; display: flex;">
+    </div> -->
+  
+<!-- 
+<footer
     class="footer section"
     style="
     margin-top: 2rem;
       background: url('../../../images/footerBg.jpg');
       background-size: cover;
-      padding: 100px 0px;">
+      padding: 100px 0px; display: flex;">
   <style>
     .footer__links a ,.footer__title{
       color: whitesmoke
@@ -216,7 +225,6 @@
           <li>
             <a href="../Rules/rules.html">Admission</a>
           </li>
-          <!-- <li><a href="../Exams/exam.html">Exams</a></li> -->
           <li>
             <a href="../Rules/Displine/discipline.html"
               >Conduct & Discipline</a
@@ -245,7 +253,7 @@
       </div>
     </div>
     <span class="footer__copy"> &#169; Barenya. All rigths reserved </span>
-  </footer>
+  </footer>  -->
 
 
 
@@ -255,11 +263,11 @@
       const imageData = [
         {
           category: "atal",
-          filePath: "../../images/ATAL Tinkering Lab/DSC_5105.JPG",
+          filePath: "../../images/ATALTinkeringLab/DSC_5105.JPG",
         },
         {
           category: "atal",
-          filePath: "../../images/ATAL Tinkering Lab/DSC_5107.JPG",
+          filePath: "../../images/ATALTinkeringLab/DSC_5107.JPG",
         },
         {
           category: "eoy",
@@ -360,44 +368,160 @@
           category: "ps",
           filePath: "../../images/Speaking/Speaking_Mahati",
         },
+        {
+          category: "asmb",
+          filePath: "../../images/mahati-assembly/assembly1.jpg",
+        },
+        {
+          category: "asmb",
+          filePath: "../../images/mahati-assembly/assembly2.jpg",
+        },
+        {
+          category: "asmb",
+          filePath: "../../images/mahati-assembly/assembly3.jpg",
+        },
+        {
+          category: "asmb",
+          filePath: "../../images/mahati-assembly/assembly4.jpg",
+        },
+        {
+          category: "asmb",
+          filePath: "../../images/mahati-assembly/assembly5.jpg",
+        },
+        {
+          category: "asmb",
+          filePath: "../../images/mahati-assembly/assembly6.jpg",
+        },
+        {
+          category: "asmb",
+          filePath: "../../images/mahati-assembly/assembly7.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga1.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga2.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga3.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga4.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga5.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga6.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga7.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga8.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga9.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga10.jpg",
+        },
+        {
+          category: "yg",
+          filePath: "../../images/mahati-yoga/yoga11.jpg",
+        },
       ];
 
 
-      function generateImageHtml(image) {
-        return `
-          <div class="item ${image.category} col-lg-3 col-md-4 col-6 col-sm">
-            <a href="${image.filePath}" class="fancylight popup-btn" data-fancybox-group="light">
-              <img class="img-fluid" src="${image.filePath}" alt="" />
-            </a>
-          </div> `
-          ;
-      }
+      // function generateImageHtml(image) {
+      //   return `
+      //     <div class="item ${image.category} col-lg-3 col-md-4 col-6 col-sm">
+      //       <a href="${image.filePath}" class="fancylight popup-btn" data-fancybox-group="light">
+      //         <img class="img-fluid" src="${image.filePath}" alt="" />
+      //       </a>
+      //     </div> `
+      //     ;
+      // }
 
-      $(document).ready(function () {
-        // Generate image elements
-        const imageHtml = imageData.map(generateImageHtml).join("");
-        $(".portfolio-item").html(imageHtml);
-
-        $('.portfolio-menu ul li').click(function(){
-          $('.portfolio-menu ul li').removeClass('active');
-          $(this).addClass('active');
+      // $(document).ready(function () {
+      //   // Generate image elements
+      //   const imageHtml = imageData.map(generateImageHtml).join("");
+      //   $(".portfolio-item").html(imageHtml);
+      //   $('.portfolio-menu ul li').click(function(){
+      //     $('.portfolio-menu ul li').removeClass('active');
+      //     $(this).addClass('active');
           
-          var selector = $(this).attr('data-filter');
-          $('.portfolio-item').isotope({
-            filter: selector
-          });
-          return  false;
-        });
+      //     var selector = $(this).attr('data-filter');
+      //     $('.portfolio-item').isotope({
+      //       filter: selector
+      //     });
+      //     return  false;
+      //   });
 
-        var popup_btn = $('.popup-btn');
-        popup_btn.magnificPopup({
-          type : 'image',
-          gallery : {
-            enabled : true
-          }
-        });
+      //   var popup_btn = $('.popup-btn');
+      //   popup_btn.magnificPopup({
+      //     type : 'image',
+      //     gallery : {
+      //       enabled : true
+      //     }
+      //   });
+      // });
+
+
+  function generateImageHtml(image) {
+    return `
+      <div class="item ${image.category} col-lg-3 col-md-4 col-6 col-sm" style="margin-bottom: 10px;" >
+        <a href="${image.filePath}" class="fancylight popup-btn" data-fancybox-group="light">
+          <img class="img-fluid" src="${image.filePath}" alt="" />
+        </a>
+      </div>`;
+  }
+
+  $(document).ready(function () {
+    $('.portfolio-menu ul li').click(function () {
+      $('.portfolio-menu ul li').removeClass('active');
+      $(this).addClass('active');
+
+      var selector = $(this).attr('data-filter');
+      $('.portfolio-item').isotope({
+        filter: selector
       });
+
+      // Generate image elements for the selected category
+      const selectedImages = imageData.filter(image => image.category === selector.replace('.', ''));
+      const imageHtml = selectedImages.map(generateImageHtml).join("");
+      $(".portfolio-item").html(imageHtml);
+
+      // Initialize fancybox for the new images
+      var popup_btn = $('.popup-btn');
+      popup_btn.magnificPopup({
+        type: 'image',
+        gallery: {
+          enabled: true
+        }
+      });
+
+      return false;
+    });
+  });
+
+
     </script>
+
+
+
+
+
   </body>
 </html>
 

@@ -488,6 +488,12 @@ nav .navbar .links li:hover .contact-sub-menu  {
   position: relative;
   z-index: 2; /* Add this line */
 }
+
+.portfolio-menu-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /* .row {
   display: -ms-flexbox;
   display: flex;
@@ -553,29 +559,6 @@ nav .navbar .links li:hover .contact-sub-menu  {
   text-align: center !important;
 }
 
-@media (min-width: 1200px) {
-  .aboutSchool .container {
-    /* max-width: 1140px; */
-  }
-}
-
-@media (min-width: 992px) {
-  .aboutSchool .container {
-    /* max-width: 960px; */
-  }
-}
-
-@media (min-width: 768px) {
-  .aboutSchool .container {
-    /* max-width: 720px; */
-  }
-}
-
-@media (min-width: 576px) {
-  .aboutSchool .container {
-    /* max-width: 540px; */
-  }
-}
 
 @media (max-width: 576px) {
   .w-sectionHeading {
@@ -583,7 +566,59 @@ nav .navbar .links li:hover .contact-sub-menu  {
     text-align: center;
     height: 57px;
   }
+  .portfolio-menu-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
+
+@media (min-width: 576px) {
+  .aboutSchool .container {
+    /* max-width: 540px; */
+  }
+  .portfolio-menu-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+@media (min-width: 768px) {
+  .aboutSchool .container {
+    /* max-width: 720px; */
+  }
+  .portfolio-menu-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .aboutSchool .container {
+    /* max-width: 960px; */
+  }
+  .portfolio-menu-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .aboutSchool .container {
+    /* max-width: 1140px; */
+  }
+  .portfolio-menu-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+
+
+
+
 
 @media (min-width: 992px) {
   .col-lg-12 {
