@@ -58,6 +58,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /* font-size: smaller; */
 }
 
 html {
@@ -74,10 +75,12 @@ body {
 h1, h2, h3 {
   color: var(--title-color);
   font-weight: var(--font-bold);
+  /* font-size: 12px; */
 }
 
 h1, h2, h3, p {
   line-height: 140%;
+  /* font-size: x-small; */
 }
 
 ul {
