@@ -96,6 +96,10 @@
   }
 }
 
+.whiteColor {
+  color: #fff;
+}
+
 .history__text p{
   /* font: 500; */
   /* font-size: large; */

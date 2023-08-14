@@ -177,13 +177,18 @@ nav .navbar .links li a {
   font-size: 16px;
   font-weight: 700;
 }
-.links li:hover .htmlcss-arrow,
+/* .links li:hover .htmlcss-arrow,
 .links li:hover .contact, 
 .links li:hover .js-arrow,
 .links li:hover .about-us,
 .links li:hover .academics,
 .links li:hover .rules,
 .links li:hover .achievements{
+  transform: rotate(180deg);
+} */
+
+
+nav .navbar .links li .arrow:hover{
   transform: rotate(180deg);
 }
 
