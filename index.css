@@ -1,0 +1,109 @@
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: 3.5rem;
+  
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --first-color: hsl(36, 72%, 48%);
+    --first-color-alt: hsl(36, 72%, 44%);
+    --black-color: hsl(206, 12%, 12%);
+    --card-color: hsl(0, 0%, 90%);
+    --title-color: hsl(206, 12%, 12%);
+    --text-color: hsl(206, 4%, 42%);
+    --text-color-light: hsl(206, 4%, 75%);
+    --body-color: #ffffff;
+    --container-color: #fff;
+    --school-color-1: #f6901E;
+    --school-color-2: #8bc53f;
+    --school-color-3: #5bbbea;
+    --school-color-4: #CFEDF9;
+    --school-color-5: #7352a1;
+  
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: 'Lato', sans-serif;
+    --biggest-font-size: 54px;
+    --h1-font-size: 48px;
+    --h2-font-size: 36px;
+    --h3-font-size: 24px;
+    --para-font-size : 20px;
+    --normal-font-size: 16px;
+    --small-font-size: 14px;
+    --smaller-font-size: 12px;
+  
+    /*========== Font weight ==========*/
+    --font-bold: 700;
+  
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+  }
+  
+  /* @media screen and (min-width: 968px) {
+    :root {
+      --biggest-font-size: 3.5rem;
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1.2rem;
+      --small-font-size: .875rem;
+      --smaller-font-size: .813rem;
+    }
+  } */
+
+  /* styles for Small devices (tablets)  */
+@media screen and (max-width: 767px) {
+    :root {
+        --body-font: 'Lato', sans-serif;
+        --biggest-font-size: 42px;
+        --h1-font-size: 32px;
+        --h2-font-size: 24px;
+        --h3-font-size: 16px;
+        --para-font-size : 14px;
+        --normal-font-size: 12px;
+        --small-font-size: 10px;
+        --smaller-font-size: 8px;
+      
+        /*========== Font weight ==========*/
+        --font-bold: 700;
+      
+        /*========== z index ==========*/
+        --z-tooltip: 10;
+        --z-fixed: 100;
+      }
+}
+
+/* styles for Medium devices (desktops, laptops) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    :root {
+        --body-font: 'Lato', sans-serif;
+        --biggest-font-size: 48px;
+        --h1-font-size: 42px;
+        --h2-font-size: 32px;
+        --h3-font-size: 20px;
+        --para-font-size : 18px;
+        --normal-font-size: 14px;
+        --small-font-size: 12px;
+        --smaller-font-size: 10px;
+      
+        /*========== Font weight ==========*/
+        --font-bold: 700;
+      
+        /*========== z index ==========*/
+        --z-tooltip: 10;
+        --z-fixed: 100;
+      }
+}
+
+h2 {
+    font-size: var(--h1-font-size);
+}
+
+p {
+    font-size: var(--para-font-size);
+}
+
+a {
+    font-size: var(--para-font-size);
+    font-weight: 400;
+}

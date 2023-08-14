@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="landingAssets/css/styles.css" />
     <link rel="stylesheet" href="./trial.css" />
     <link rel="stylesheet" type="text/css" href="./videobg.css" />
+    <link rel="stylesheet" type="text/css" href="./index.css">
 
     <!--=============== FAVICON ===============-->
     <link
@@ -167,7 +168,7 @@
     <!-- News & Notice -->
     <div class="skill" style="z-index: 9">
     <div class="skill-container">
-      <div class="skill-text">
+      <div class="skill-text ">
         <h2>News/ Notice</h2>
         <p> <a href="./Pages/News/news.html">View All -> </a></p>
       </div>
@@ -278,7 +279,8 @@
     <div class="aboutSchool__container">
       <div class="col-lg-12">
         <div class="w-sectionHeading mb-5 w-sectionHeading-about-school">
-          <span class="whiteColor">About School</span>
+          <span >
+            <h2 class="whiteColor"> About School </h2></span>
         </div>
         <p class="text-center whiteColor px-lg-5 px-2">
           We as the Mahati Educational Society have extensive interest in the orbit of quality
@@ -302,10 +304,12 @@
         width: 100%;
         padding: 100px 0px;
         background: url('./images/homePhotoGallerBg.png');
-        background-size: cover;">
+        background-size: cover;
+        display: flex;
+    justify-content: space-around;">
     <section class="services section services__main__container" id="services">
       <div class="w-sectionHeading mb-5">
-        <span class="">Our Achievements </span>
+        <h2>Our Achievements </h2>
       </div>
       <div class="services__container grid">
         <div class="services__data">
@@ -338,12 +342,14 @@
     <section class="estate__section" id="popular" style="padding: 100px 0px">
       <div class="container" id="video-file">
         <div class="estate__section__title mb-5">
-          <span class="whiteColor">Events </span>
+          <span >
+            <h2 class="whiteColor">Events</h2> </span>
         </div>
         <div class="estate__popular__container grid swiper">
           <div class="swiper-wrapper">
             <article class="estate__popular__card swiper-slide">
-              <img src="./images/events/sports.png" alt="" class="estate__popular__img" style="width: 50%;" />
+              <img src="./images/events/sports.png" alt="" class="estate__popular__img" style="    height: 100px;
+    width: 100px;" />
               <div class="estate__popular__data">
                 <h2 class="estate__popular__price">
                 </h2>
@@ -354,7 +360,8 @@
               </div>
             </article>
             <article class="estate__popular__card swiper-slide">
-              <img src="./images/events/krishna.png" alt="" class="estate__popular__img" style="width: 50%;" />
+              <img src="./images/events/krishna.png" alt="" class="estate__popular__img" style="    height: 100px;
+    width: 100px;" />
               <div class="estate__popular__data">
                 <h2 class="estate__popular__price">
                 </h2>
@@ -365,7 +372,8 @@
               </div>
             </article>
             <article class="estate__popular__card swiper-slide">
-              <img src="./images/events/Annual.png" alt="" class="estate__popular__img" style="width: 50%;" />
+              <img src="./images/events/Annual.png" alt="" class="estate__popular__img" style="    height: 100px;
+    width: 100px;" />
               <div class="estate__popular__data">
                 <h2 class="estate__popular__price">
                 </h2>
@@ -376,7 +384,8 @@
               </div>
             </article>
             <article class="estate__popular__card swiper-slide">
-              <img src="./images/events/SpellBee.png" alt="" class="estate__popular__img" style="width: 50%;" />
+              <img src="./images/events/SpellBee.png" alt="" class="estate__popular__img" style="    height: 100px;
+    width: 100px;" />
               <div class="estate__popular__data">
                 <h2 class="estate__popular__price">
                 </h2>
@@ -387,7 +396,8 @@
               </div>
             </article>
             <article class="estate__popular__card swiper-slide">
-              <img src="./images/events/Telugu.png" alt="" class="estate__popular__img" style="width: 50%;" />
+              <img src="./images/events/Telugu.png" alt="" class="estate__popular__img" style="    height: 100px;
+    width: 100px;" />
               <div class="estate__popular__data">
                 <h2 class="estate__popular__price">
                 </h2>
@@ -399,7 +409,8 @@
               </div>
             </article>
             <article class="estate__popular__card swiper-slide">
-              <img src="./images/events/Movie.png" alt="" class="estate__popular__img" style="width: 50%;" />
+              <img src="./images/events/Movie.png" alt="" class="estate__popular__img" style="    height: 100px;
+    width: 100px;" />
               <div class="estate__popular__data">
                 <h2 class="estate__popular__price">
                 </h2>
@@ -410,7 +421,8 @@
               </div>
             </article>
             <article class="estate__popular__card swiper-slide">
-              <img src="./images/events/International.png" alt="" class="estate__popular__img" style="width: 50%;" />
+              <img src="./images/events/International.png" alt="" class="estate__popular__img" style="    height: 100px;
+    width: 100px;" />
               <div class="estate__popular__data">
                 <h2 class="estate__popular__price">
                 </h2>
@@ -482,13 +494,15 @@
 
     <!-- Management Desk  -->
     <div class="specialty specialty__section container" id="specialty" style="padding: 100px 0px; width: 100vw;">
-    <div class="specialty__container">
-      <div class="specialty__box">
+    <div class="specialty__container" style="display: flex;
+    flex-direction: column;
+    align-items: center;">
+      <!-- <div class="specialty__box"> -->
         <h2 class="specialty__section__title">Management Desk</h2>
-        <div>
+        <!-- <div>
           <a href="./Pages/Message/message.html" class="button specialty__button">See more</a>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
       <div class="specialty__category">
         <div class="specialty__group specialty__line">
           <img src="./images/principal.png" alt="" class="specialty__img" />
@@ -516,7 +530,8 @@
       style="background: rgba(218, 218, 218, 0.5019607843137255);
         padding: 100px 0px;">
       <div class="estate__section__title mb-5">
-        <span class="whiteColor" style="color: black">Our Facility </span>
+        <span >
+          <h2 class="blackColor" style="color: black">Our Facility </h2></span>
       </div>
       <div class="sushi__popular__container container grid">
         <article class="sushi__popular__card" style="background-color: #8bc53f">

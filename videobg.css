@@ -520,7 +520,7 @@ nav .navbar .links li:hover .contact-sub-menu  {
 }
 
 .w-sectionHeading {
-  font: 700 57px/57px "Roboto";
+  /* font: 700 57px/57px "Roboto"; */
   text-align: center;
   height: 57px;
 }
@@ -660,7 +660,7 @@ nav .navbar .links li:hover .contact-sub-menu  {
 }
 
 .aboutSchool p {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   font-weight: 400;
   line-height: 1.5;
   margin-top: 0;
@@ -930,9 +930,9 @@ body {
   border: none;
 }
 
-.h24 {
+/* .h24 {
   font: 600 24px/30px "Roboto";
-}
+} */
 
 .d-block {
   display: block !important;
@@ -991,14 +991,14 @@ body {
 }
 
 .skill h2 {
-  font-size: 45px;
+  /* font-size: 45px; */
   font-weight: 700;
   color: #3c3665;
 }
 .skill p {
   /* color: #B8B8B8; */
   color: #3c3665;
-  font-size: 18px;
+  /* font-size: 18px; */
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px 0 25px 0;
@@ -1024,7 +1024,7 @@ body {
     /* padding: 2rem 0.5rem; */
   }
   .skill h2 {
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
   }
   .skill p {
     /* padding: 0rem 1rem; */

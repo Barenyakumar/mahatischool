@@ -2206,7 +2206,7 @@ button {
 }
 
 .estate__section__title {
-  font: 700 57px/57px 'Roboto';
+  /* font: 700 57px/57px 'Roboto'; */
   text-align: center;
   height: 57px;
 }
