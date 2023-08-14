@@ -490,8 +490,11 @@ nav .navbar .links li:hover .contact-sub-menu  {
 }
 
 .portfolio-menu-container{
+  margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+
 }
 
 /* .row {
@@ -569,6 +572,8 @@ nav .navbar .links li:hover .contact-sub-menu  {
   .portfolio-menu-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+
   }
 }
 
@@ -579,6 +584,7 @@ nav .navbar .links li:hover .contact-sub-menu  {
   .portfolio-menu-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
 }
 
@@ -590,6 +596,8 @@ nav .navbar .links li:hover .contact-sub-menu  {
   .portfolio-menu-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+
   }
 }
 
@@ -600,6 +608,7 @@ nav .navbar .links li:hover .contact-sub-menu  {
   .portfolio-menu-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
   }
 }
 
@@ -609,7 +618,8 @@ nav .navbar .links li:hover .contact-sub-menu  {
   }
   .portfolio-menu-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
   }
 }
 
