@@ -695,10 +695,10 @@ width: 139px;
   font: 600;
 }
 
-.vision__text p{
+/* .vision__text p{
   font: 500;
   font-size: large;
-}
+} */
 
 .vision__image{
   display: flex;
@@ -723,6 +723,8 @@ width: 139px;
 
   .vision__text{
     padding: 2rem;
+    width: 80%;
+    font: 600;
   }
 
   .vision__image{
@@ -737,6 +739,8 @@ width: 139px;
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .vision__text{
     padding: 2rem;
+    width: 80%;
+    font: 600;
   }
 
   .vision__image{

@@ -17,6 +17,14 @@
   <link rel="stylesheet" href="../../index.css">
 </head>
 
+<!-- <style>
+  .responsive-iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style> -->
+
 <body>
 
   <nav style="position: relative">
@@ -99,23 +107,22 @@
   <div class="aboutSchool sectionPadding">
     <div class="aboutSchool__container">
       <!-- <div class="row"> -->
-      <div class="col-lg-12">
+      <div class="">
         <div class="w-sectionHeading w-sectionHeading-all-pages mb-5">
           <span >
             <h2 class="whiteColor">Mail us</h2> </span>
         </div>
-      </div>
+      </div>  
       <!-- </div> -->
     </div>
   </div>
-  <div class="container bg-light mt-4" style="width: 70vw">
-    <div class="row pt-lg-3">
-      <div class="col-12 col-lg-12">
+  <div class="container bg-light mt-4" style="width: 85vw" >
+    <div class="row ">
         <div class="contactInfo">
           <ul>
             <li class="borderbt">
               <span class="ctinfo">
-                <!-- <img src="/images/phone.png" class="muimg"/> -->
+                <!-- <img src="./images/listArrow" class="muimg"/> -->
               </span>
               <strong>Phone</strong>
               <span> 08818 228499, +91 6300986738.</span>
@@ -125,10 +132,11 @@
                 <!-- <img src="/images/address.png" class="muimg" /> -->
               </span>
               <strong>Address</strong>
-              <span>Mahati English Medium School, <br />
+              <p>Mahati English Medium School, <br />
                 Majeti Vari Street, Tadepalligudem, <br />
                 West Godavati District, Andhra Pradesh – 534101
-              </span>
+              </p>
+              
             </li>
 
             <!-- <li class="borderbt">
@@ -144,8 +152,18 @@
               </li> -->
           </ul>
         </div>
-      </div>
     </div>
+  </div>
+
+  <!-- <div class="">
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908795.5899375915!2d77.29838464056355!3d16.91625336960821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37b4b983bb6cff%3A0xdf82f318f8fff6b6!2sMahati%20English%20Medium%20School!5e0!3m2!1sen!2sin!4v1692415479680!5m2!1sen!2sin" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div> -->
+
+
+  <div class="iframe-container" style="width: 100vw; display: flex; justify-content: center; margin-top: 2rem;">
+    <iframe class="responsive-iframe" id="myIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908795.5899375915!2d77.29838464056355!3d16.91625336960821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37b4b983bb6cff%3A0xdf82f318f8fff6b6!2sMahati%20English%20Medium%20School!5e0!3m2!1sen!2sin!4v1692415479680!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
   <footer class="footer section" style="
@@ -220,8 +238,46 @@
     <span class="footer__copy"> &#169; Barenya. All rigths reserved </span>
   </footer>
 
-
   <script src="../../navbar.js"></script>
+
+  <script>
+    function setIframeSize() {
+      const screenWidth = window.innerWidth;
+      console.log("screenWidth",screenWidth);
+      let iframeWidth, iframeHeight;
+  
+      if (screenWidth < 576) {
+        iframeWidth = 300;
+        iframeHeight = 200;
+      } 
+      else if (screenWidth >= 577 && screenWidth <= 767){
+        iframeWidth = 400;
+        iframeHeight = 300;
+      }else if (screenWidth >= 768 && screenWidth <= 991) {
+        iframeWidth = 500;
+        iframeHeight = 380;
+      }else if (screenWidth >= 992 && screenWidth <= 1199) {
+        iframeWidth = 600;
+        iframeHeight = 450;
+      } 
+      else {
+        iframeWidth = 800;
+        iframeHeight = 600;
+      }
+  
+      const iframe = document.getElementById('myIframe');
+      iframe.width = iframeWidth;
+      iframe.height = iframeHeight;
+
+      console.log("iframe.width",iframe.width);
+      console.log("iframe.height",iframe.height);
+    }
+  
+    // Call the function when the page loads and when the window is resized
+    window.addEventListener('load', setIframeSize);
+    window.addEventListener('resize', setIframeSize);
+  </script>
+  
 </body>
 
 </html>
