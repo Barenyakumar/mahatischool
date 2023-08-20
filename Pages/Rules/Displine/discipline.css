@@ -19,11 +19,19 @@ body {
   .container {
     max-width: 540px;
   }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  .img-fluid {
+    max-width: 80%;
+    height: auto;
   }
 }
 
@@ -31,11 +39,19 @@ body {
   .container {
     max-width: 960px;
   }
+  .img-fluid {
+    max-width: 60%;
+    height: auto;
+  }
 }
 @media (min-width: 992px){
 
 .pt-lg-3, .py-lg-3 {
   padding-top: 1rem !important;
+}
+.img-fluid {
+  max-width: 50%;
+  height: auto;
 }
 }
 .row {
@@ -114,10 +130,10 @@ body {
   .d-block {
     display: block !important;
   }
-  .img-fluid {
+  /* .img-fluid {
     max-width: 100%;
     height: auto;
-  }
+  } */
   img {
     border: none;
   }
