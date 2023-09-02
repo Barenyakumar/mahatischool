@@ -868,12 +868,40 @@ video {
 }
 
 .footer__copy {
-  display: block;
+  display: flex;
+  justify-content: space-around;
   margin-top: 4.5rem;
   text-align: center;
   font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  /* color: var(--text-color-light); */
+  color: white;
 }
+
+.footer__copy_content{
+  color: var(--text-color-light);
+  font-size: var(--smaller-font-size);
+}
+
+@media screen and (max-width: 670px  ) {
+  .footer__copy {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    margin-top: 4.5rem;
+    text-align: center;
+    font-size: var(--smaller-font-size);
+    /* color: var(--text-color-light); */
+    color: white;
+  }
+  
+  .footer__copy_content{
+    margin-top: 1rem;
+    color: var(--text-color-light);
+    font-size: var(--smaller-font-size);
+  }
+}
+
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
